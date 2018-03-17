@@ -5,20 +5,20 @@ import android.support.v7.app.AppCompatActivity
 import android.os.Bundle
 import android.view.View
 
-class MainActivity : AppCompatActivity() {
+class Nauka : AppCompatActivity() {
 
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
-        setContentView(R.layout.activity_main)
+        setContentView(R.layout.activity_nauka)
     }
 
-    fun toNauka (view: View){
-        val intent = Intent(applicationContext,Nauka::class.java)
+    fun toKardiologiczne (view: View){
+        val intent = Intent(applicationContext,Kardio::class.java)
         startActivity(intent)
 
     }
-    fun toTesty (view: View) {
-        val intent = Intent(applicationContext, Testy::class.java)
+    fun toPulmonologiczne (view: View) {
+        val intent = Intent(applicationContext, Pulmono::class.java)
         startActivity(intent)
     }
 

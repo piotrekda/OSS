@@ -16,6 +16,10 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Nauka" />
+        <activity android:name=".Testy" />
+        <activity android:name=".Kardio" />
+        <activity android:name=".Pulmono"></activity>
     </application>
 
 </manifest>

@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.piotr.osluchajsiesam.MainActivity">
+    tools:context="com.example.piotr.osluchajsiesam.Nauka">
 
 
     <android.support.v7.widget.Toolbar
@@ -42,12 +42,12 @@
         android:layout_marginEnd="64dp"
         android:layout_marginStart="64dp"
         android:layout_marginTop="127dp"
-        android:onClick="toNauka"
+        android:onClick="toKardiologiczne"
         app:layout_constraintBottom_toTopOf="@+id/imageView11"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/customtoolbar"
-        app:srcCompat="@drawable/e1" />
+        app:srcCompat="@drawable/e3" />
 
     <ImageView
         android:id="@+id/imageView11"
@@ -57,12 +57,13 @@
         android:layout_marginEnd="64dp"
         android:layout_marginStart="64dp"
         android:layout_marginTop="85dp"
-        android:onClick="toTesty"
+        android:onClick="toPulmonologiczne"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView10"
-        app:srcCompat="@drawable/e2" />
+        app:srcCompat="@drawable/e4" />
+
 
 
 </android.support.constraint.ConstraintLayout>
