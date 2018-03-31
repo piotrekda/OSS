@@ -16,6 +16,20 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".Nauka" />
+        <activity android:name=".Testy" />
+        <activity android:name=".Kardio" />
+        <activity android:name=".Pulmono" />
+        <activity android:name=".PrawidloweTonySerca" />
+        <activity android:name=".JakOsluchiwac" />
+        <activity android:name=".IIItonserca" />
+        <activity android:name=".IVtonserca" />
+        <activity android:name=".StenozaZastawkiAortalnej" />
+        <activity android:name=".NiewydolnoscZastawkiAortalnej" />
+        <activity android:name=".StenozaZastawkiMitralnej" />
+        <activity android:name=".NiedomykalnoscZastawkiMitralnej" />
+        <activity android:name=".ASDS" />
+        <activity android:name=".VSO"></activity>
     </application>
 
 </manifest>
