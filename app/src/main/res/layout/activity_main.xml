@@ -32,7 +32,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.0"
-        app:srcCompat="@drawable/e5" />
+        android:src="@drawable/e5" />
 
     <ImageView
         android:id="@+id/imageView10"
@@ -47,7 +47,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/customtoolbar"
-        app:srcCompat="@drawable/e1" />
+        android:src="@drawable/e1" />
 
     <ImageView
         android:id="@+id/imageView11"
@@ -62,7 +62,7 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView10"
-        app:srcCompat="@drawable/e2" />
+        android:src="@drawable/e2" />
 
 
 </android.support.constraint.ConstraintLayout>
